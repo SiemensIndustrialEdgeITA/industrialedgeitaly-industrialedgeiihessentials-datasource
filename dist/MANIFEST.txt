@@ -1,0 +1,37 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "private",
+  "signedByOrg": "davimaf90",
+  "signedByOrgName": "industrialedgeitaly",
+  "rootUrls": [
+    "https://industrialedgeitaly.grafana.net/"
+  ],
+  "plugin": "industrialedgeitaly-industrialedgeiihessentials-datasource",
+  "version": "2.0.0",
+  "time": 1710753193738,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "module.js": "d18cb25efc4606e73b766fb226134cc249859a927cb37dc92e6620f451bbce5f",
+    "module.js.map": "2994d191afc7304cba5618bd3effd5e84736c420ee4930a22cf5d9b19f5afa9d",
+    "LICENSE": "85844a8e820fa2f1e7c2713910d9958c478dbefc6675bd5c9d30036abf7fc36f",
+    "img/logo.svg": "89fd824fcc827510650c4c49a98ac8cae9ee2d3f24ccfa30327a1243fbdb2ed9",
+    "plugin.json": "c2eb37fc737865416d035cb4d0cdc8df80d78bb7726dcaaecf0139efcd174dbf",
+    "README.md": "e34142914d77debfeb63d8b2bae20c9f0aae505c36d84cad55a886cd02cf2b0b",
+    "CHANGELOG.md": "7fc7c56ee9b61201990409120458ca1c0a93137011bd7fc3017665a91c005bb1"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.11
+Comment: https://openpgpjs.org
+
+wrkEARMKAAYFAmX4BakAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm56XZAgkAkmAbpLxxiq8P6Exthe/cYgKRRIiu6pRvUm7AJ1hlzOCSGI/X
+dtaxaD083bkmtArVIbPVdTG5CtFzb/yIrnTepOkCCQDIT+/CpXvWw+iRSU0N
+lUvqhnHnKv9yZEvNhhcMcysAOawkjdcwhop/EKd1PRxizoeJkgolhu/q9kIk
+vEu5caswrw==
+=pBbR
+-----END PGP SIGNATURE-----

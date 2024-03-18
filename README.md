@@ -20,4 +20,4 @@ Please refer to the [edge-grafana](https://github.com/SiemensIndustrialEdgeITA/e
 
 ## License & Legal Information
 
-Please read the [Legal Information](LICENSE.md).
+Please read the [Legal Information](LICENSE).
