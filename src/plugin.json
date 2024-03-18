@@ -1,17 +1,19 @@
 {
-  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "datasource",
-  "name": "Industrial Edge DataService",
-  "id": "industrialedge-dataservice-datasource",
+  "name": "Industrial Edge IIH Essentials Datasource",
+  "id": "industrialedgeitaly-industrialedgeiihessentials-datasource",
   "metrics": true,
   "info": {
-    "description": "Plugin for reading data from Siemens Industrial Edge App DataService.",
+    "description": "Plugin for reading timeseries data from Siemens Industrial Edge app IIH Essentials through APIs.",
     "author": {
-      "name": "IndustrialEdge",
+      "name": "Industrial Edge Italy",
       "url": "https://github.com/SiemensIndustrialEdgeITA"
     },
     "keywords": [
-      "dataservice",
+      "datasource",
+      "siemens",
+      "iih",
       "industrialedge"
     ],
     "logos": {
@@ -21,19 +23,29 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/grafana-starter-datasource"
+        "url": "https://github.com/SiemensIndustrialEdgeITA/industrialedgeitaly-industrialedgeiihessentials-datasource"
       },
       {
         "name": "License",
-        "url": "https://github.com/grafana/grafana-starter-datasource/blob/master/LICENSE"
+        "url": "https://github.com/SiemensIndustrialEdgeITA/industrialedgeitaly-industrialedgeiihessentials-datasource/blob/master/LICENSE"
       }
     ],
     "screenshots": [],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
+  "routes": [
+    {
+      "path": "edgeappdataservice",
+      "url": "http://edgeappdataservice:4203"
+    },
+    {
+      "path": "iihadapter",
+      "url": "http://grafana-iih-adapter:5000"
+    }
+  ],
   "dependencies": {
-    "grafanaDependency": ">=7.0.0",
+    "grafanaDependency": ">=10.0.3",
     "plugins": []
   }
 }

@@ -1,0 +1,18 @@
+version: '2.4'
+
+services:
+  grafana-dev-datasource:
+    container_name: 'grafana-dev-datasource'
+    build:
+      context: ./.config
+    ports:
+      - 3000:3000/tcp
+    volumes:
+      - ./dist:/var/lib/grafana/plugins/siemens-industrialedgeiihessentials-datasource
+      - ./provisioning:/etc/grafana/provisioning
+    networks:
+      - proxy-redirect
+
+networks:
+  proxy-redirect:
+    name: proxy-redirect
