@@ -8,11 +8,11 @@ Hash: SHA512
   "signedByOrg": "davimaf90",
   "signedByOrgName": "industrialedgeitaly",
   "rootUrls": [
-    "https://industrialedgeitaly.grafana.net/"
+    "https://localhost:3000/edge-grafana/"
   ],
   "plugin": "industrialedgeitaly-industrialedgeiihessentials-datasource",
   "version": "2.0.0",
-  "time": 1710753193738,
+  "time": 1710848506867,
   "keyId": "7e4d0c6a708866e7",
   "files": {
     "module.js": "d18cb25efc4606e73b766fb226134cc249859a927cb37dc92e6620f451bbce5f",
@@ -28,10 +28,10 @@ Hash: SHA512
 Version: OpenPGP.js v4.10.11
 Comment: https://openpgpjs.org
 
-wrkEARMKAAYFAmX4BakAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
-cIhm56XZAgkAkmAbpLxxiq8P6Exthe/cYgKRRIiu6pRvUm7AJ1hlzOCSGI/X
-dtaxaD083bkmtArVIbPVdTG5CtFzb/yIrnTepOkCCQDIT+/CpXvWw+iRSU0N
-lUvqhnHnKv9yZEvNhhcMcysAOawkjdcwhop/EKd1PRxizoeJkgolhu/q9kIk
-vEu5caswrw==
-=pBbR
+wrkEARMKAAYFAmX5efsAIQkQfk0ManCIZucWIQTzOyW2kQdOhGNlcPN+TQxq
+cIhm532bAgkAJ3R3PjBOcSPPGa/G352IIv6Sr8kKIutHuMY4EMLyR9QkwQ0L
+64R/pXHHhJE2V1/kJiV/YE17tLdFiMdrreTnlA0CCQGCLSlGTRQJK/0suGqC
+Wo1qZe4ODoyr1s2K5wlhs6GPKbn7tXs3o4VWY1vy30GAKhiUDgkHV9WYa7v7
+PMLO2kGRXg==
+=Igyr
 -----END PGP SIGNATURE-----
